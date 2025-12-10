@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: Url-Shortner-App
+  datasource:
+    url: jdbc:mysql://localhost:3306/localdb
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update   # automatically update schema (dev only)
+    show-sql: true       # log SQL queries
+  
