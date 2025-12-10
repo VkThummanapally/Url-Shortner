@@ -13,4 +13,5 @@ spring:
     hibernate:
       ddl-auto: update   # automatically update schema (dev only)
     show-sql: true       # log SQL queries
-  
+app:
+  domain: http://localhost:8080
